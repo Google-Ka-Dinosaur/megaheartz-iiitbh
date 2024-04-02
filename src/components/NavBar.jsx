@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-b from-gray-800 to-black">
       <div className="flex flex-row gap-1">
-        <img src={logo} alt="Logo" className="h-20 w-auto" />
+        <img src={logo} alt="Logo" className="h-10 w-auto" />
       </div>
 
       <ul className="hidden md:flex">

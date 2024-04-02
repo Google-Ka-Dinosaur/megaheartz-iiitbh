@@ -1,29 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   });
 
+  const [emailStatus, setEmailStatus] = useState(null);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        "service_3lfqswf",
+        "template_3mr3b3s",
         e.target,
-        process.env.REACT_APP_EMAILJS_USER_ID
+        "MFf_I7thOqU1nMoKU"
       )
       .then(
         (result) => {
           console.log("Email sent successfully:", result.text);
+          setEmailStatus("success");
         },
         (error) => {
           console.error("Email sending failed:", error.text);
+          setEmailStatus("error");
         }
       );
 
@@ -80,6 +84,16 @@ const Contact = () => {
             >
               Send e-mail
             </button>
+            {emailStatus === "success" && (
+              <p className="text-green-500 text-center">
+                Email sent successfully!
+              </p>
+            )}
+            {emailStatus === "error" && (
+              <p className="text-red-500 text-center">
+                e-mail delivery failed! Please try again.
+              </p>
+            )}
           </form>
         </div>
       </div>

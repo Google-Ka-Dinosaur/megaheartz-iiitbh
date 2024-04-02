@@ -60,7 +60,7 @@ const Home = () => {
           </p>
           <div className="flex flex-row gap-2">
             <Link
-              to="projects"
+              to="Projects"
               smooth
               duration={500}
               data-aos="fade-up"
