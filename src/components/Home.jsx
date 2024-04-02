@@ -31,21 +31,24 @@ const Home = () => {
               className="mt-20 rounded-2xl w-1/3 md:w-1/3 lg:w-1/5 my-5 hover:scale-105 duration-300 sm:ease-in"
             />
           </div>
-          <h2
+          <h3
             data-aos="fade-in"
             data-aos-duration="1000"
             className="text-4xl sm:text-6xl font-bold text-white"
           >
-            MegaHeartz |{" "}
-            <span
-              data-aos="fade-left"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="1000"
-              className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black"
-            >
-              Face of IIIT-Bh
+            <span style={{ fontFamily: "Arial, sans-serif" }}>
+              IIIT MegaHeartz |{" "}
+              <span
+                data-aos="fade-left"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
+                className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black"
+              >
+                Face of IIIT-Bh
+              </span>
             </span>
-          </h2>
+          </h3>
+
           <p
             data-aos="fade-in"
             data-aos-delay="400"
@@ -66,7 +69,7 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="2000"
-              className="group rounded bg-gradient-to-r from-pink-600 to-purple-600 w-1/3 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28"
+              className="group rounded bg-gradient-to-r from-pink-600 to-purple-600 w-1/3 md:w-auto h-8 md:h-auto flex items-center justify-center cursor-pointer mt-5 mb-28 text-sm md:text-base"
             >
               Society Portfolio
               <span className="px-2 group-hover:rotate-90 duration-300">

@@ -83,12 +83,14 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg max-h-screen-lg p-4 mx-auto flex flex-col justify-center w-full ">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-400">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-400 ">
             <br />
             <br />
             Our Domains
           </p>
-          <p className="py-6">Checkout the variety of domains we offer</p>
+          <p className="py-6 text-pink-500">
+            Checkout the variety of domains we offer
+          </p>
         </div>
 
         <div className="w-full h-full grid grid-cols-2 text-center sm:grid-cols-3 gap-8 px-12 sm:px-0">
