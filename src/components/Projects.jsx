@@ -18,21 +18,21 @@ const Projects = () => {
     {
       id: 1,
       src: independence,
-      desc: "Sandesh is a Chat App made using ReactJS + Tailwind CSS + ChatEngine API Service + Firebase authentication...",
+      // desc: "Sandesh is a Chat App made using ReactJS + Tailwind CSS + ChatEngine API Service + Firebase authentication...",
       demo: "https://sandeshh.netlify.app/",
       code: "https://github.com/dipayansarkar47/Sandesh",
     },
     {
       id: 2,
       src: ShopEasy,
-      desc: "This Full-Stack ShopKaro e-commerce website is made using ReactJS, Tailwind CSS, Firebase....",
+      // desc: "This Full-Stack ShopKaro e-commerce website is made using ReactJS, Tailwind CSS, Firebase....",
       demo: "https://shopeasyy.vercel.app/",
       code: "https://github.com/dipayansarkar47/shopeasy",
     },
     {
       id: 3,
       src: Chatbot,
-      desc: "An Artificially Intelligent Chatbot using the GPT-4 Model to help people.",
+      // desc: "An Artificially Intelligent Chatbot using the GPT-4 Model to help people.",
       demo: "https://cwbbot.vercel.app/",
       code: "https://github.com/dipayansarkar47/ai-chatbot",
     },
@@ -61,7 +61,7 @@ const Projects = () => {
 
   return (
     <div
-      name="projects"
+      name="Projects"
       className="h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white
      md:h-screen"
     >
