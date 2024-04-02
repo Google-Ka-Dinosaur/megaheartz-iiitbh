@@ -66,7 +66,7 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="2000"
-              className="group rounded bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 w-1/3 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28"
+              className="group rounded bg-gradient-to-r from-pink-600 to-purple-600 w-1/3 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28"
             >
               Society Portfolio
               <span className="px-2 group-hover:rotate-90 duration-300">
@@ -82,7 +82,7 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="2500"
-              className="group hover:scale-105 rounded w-auto h-8 p-3 flex items-center bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 justify-center cursor-pointer mt-5 mb-28"
+              className="group hover:scale-105 rounded w-auto h-8 p-3 flex items-center bg-gradient-to-r from-pink-600 to-purple-600 justify-center cursor-pointer mt-5 mb-28"
             >
               <span className="pr-2">
                 <HiOutlineMail size={25} />

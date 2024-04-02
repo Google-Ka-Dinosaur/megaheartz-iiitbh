@@ -61,7 +61,7 @@ const About = () => {
         <div
           data-aos="zoom-in"
           data-aos-duration="500"
-          className="mb-20 fade-in flex mx-auto items-center justify-center hover:scale-105 duration-300 rounded bg-gradient-to-b from-pink-500 to-purple-500 lg:w-1/5 md:w-1/5 w-2/4 h-10 text-center cursor-pointer mt-10 gap-2"
+          className="mb-20 fade-in flex mx-auto items-center justify-center hover:scale-105 duration-300 rounded bg-gradient-to-b from-pink-600 to-purple-600 lg:w-1/5 md:w-1/5 w-2/4 h-10 text-center cursor-pointer mt-10 gap-2"
         >
           <a href="https://drive.google.com/file/d/1JbKwgAOvvMhk5gusnDbwPiOzRV9D8kOL/view?usp=sharing">
             Society Report (2023-24)
