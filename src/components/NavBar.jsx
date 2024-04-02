@@ -24,6 +24,10 @@ const NavBar = () => {
       link: "Projects",
     },
     {
+      id: 6, // Changed from 5 to 6 for the new link
+      link: "Team", // Added new link "Team"
+    },
+    {
       id: 5,
       link: "Reach Us",
     },
