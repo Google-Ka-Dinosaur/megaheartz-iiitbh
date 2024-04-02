@@ -32,7 +32,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={25} />
         </>
       ),
-      href: "megaheartz@iiit-bh.ac.in",
+      href: "mailto:megaheartz@iiit-bh.ac.in",
       target: "_blank",
     },
     {

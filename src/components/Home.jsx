@@ -79,7 +79,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="mailto:dipayansarkar265482@gmail.com"
+              href="mailto:megaheartz@iiit-bh.ac.in"
               smooth
               duration={500}
               data-aos="fade-up"
