@@ -5,9 +5,7 @@ import graphic from "../assets/experience/graphic-designer.png";
 import orator from "../assets/experience/orator.png";
 import social from "../assets/experience/social-media.png";
 import photographer from "../assets/experience/photographer.png";
-import react from "../assets/experience/react.png";
 import videography from "../assets/experience/videography.png";
-import python from "../assets/experience/python.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -61,18 +59,6 @@ const Experience = () => {
       style: "shadow-pink-800",
       center: true,
     },
-    // {
-    //   id: 8,
-    //   scr: firebase,
-    //   title: "Firebase",
-    //   style: "shadow-yellow-800",
-    // },
-    // {
-    //   id: 9,
-    //   scr: python,
-    //   title: "Python",
-    //   style: "shadow-blue-400",
-    // },
   ];
 
   return (

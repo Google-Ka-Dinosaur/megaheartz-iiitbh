@@ -39,12 +39,15 @@ const Contact = () => {
       name="Reach Us"
       className="w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
+      <br />
+      <br />
+      <br />
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-screen">
         <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-gray-400">
             Reach Us Out
           </p>
-          <p className="mt-6">Get in touch with us</p>
+          <p className="mt-6">Get in touch </p>
         </div>
 
         <div className="flex justify-center items-center">

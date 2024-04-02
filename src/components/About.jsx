@@ -3,6 +3,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 import "../App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Scrollbars } from "react-custom-scrollbars";
 
 const About = () => {
   useEffect(() => {
@@ -20,7 +21,6 @@ const About = () => {
             What is MegaHeartz ?
           </h2>
         </div>
-
         <p
           data-aos="slide-up"
           data-aos-duration="500"
