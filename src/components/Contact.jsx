@@ -21,11 +21,9 @@ const Contact = () => {
       .then(
         (result) => {
           console.log("Email sent successfully:", result.text);
-          // Add your success message or redirect here
         },
         (error) => {
           console.error("Email sending failed:", error.text);
-          // Add your error message or handling here
         }
       );
 
