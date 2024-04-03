@@ -1,3 +1,5 @@
+**Website Title**: MegaHeartz @ IIIT-Bh
+
 MegaHeartz is our college's vibrant pulse, marketing and enhancing our brand. It manages social media expertly but goes beyond that. It connects students, amplifying their voices and experiences online. Through engaging content and digital communities, MegaHeartz enriches the college experience, fostering unity among students.
 
 **Official mail id**: megaheartz@iiit-h.ac.in
