@@ -3,7 +3,9 @@ import Rajnish from "../assets/team/Rajnish.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Projects = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -16,15 +18,108 @@ const Projects = () => {
       desc: {
         name: "Rajnish Kumar Singh",
         designation: "Secretary",
+        year:'2023-2024',
         github: "https://github.com/Adityarajkishan",
         linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
         insta: "https://www.instagram.com/adityarajkishan/",
         email: "mailto:adityarajkishan@gmail.com",
       },
+      
+      style: "shadow-pink-800",
+    },
+    {
+      id: 1,
+      src: Rajnish,
+      desc: {
+        name: "Rajnish Kumar Singh",
+        designation: "Secretary",
+        github: "https://github.com/Adityarajkishan",
+        linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
+        insta: "https://www.instagram.com/adityarajkishan/",
+        email: "mailto:adityarajkishan@gmail.com",
+      },
+      
+      style: "shadow-pink-800",
+    },
+    {
+      id: 1,
+      src: Rajnish,
+      desc: {
+        name: "Rajnish Kumar Singh",
+        designation: "Secretary", 
+        
+        github: "https://github.com/Adityarajkishan",
+        linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
+        insta: "https://www.instagram.com/adityarajkishan/",
+        email: "mailto:adityarajkishan@gmail.com",
+      },
+      
+      style: "shadow-pink-800",
+    },
+    {
+      id: 1,
+      src: Rajnish,
+      desc: {
+        name: "Rajnish Kumar Singh",
+        designation: "Secretary",
+        github: "https://github.com/Adityarajkishan",
+        linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
+        insta: "https://www.instagram.com/adityarajkishan/",
+        email: "mailto:adityarajkishan@gmail.com",
+      },
+      
+      style: "shadow-pink-800",
+    },
+    {
+      id: 1,
+      src: Rajnish,
+      desc: {
+        name: "Rajnish Kumar Singh",
+        designation: "Secretary",
+        github: "https://github.com/Adityarajkishan",
+        linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
+        insta: "https://www.instagram.com/adityarajkishan/",
+        email: "mailto:adityarajkishan@gmail.com",
+      },
+      
       style: "shadow-pink-800",
     },
   ];
-
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll:3,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow:0,
+          slidesToScroll: 0
+        }
+      }
+    ]
+  };
+  
   return (
     <div
       name="Team"
@@ -34,6 +129,9 @@ const Projects = () => {
       <br />
       <br />
       <br />
+      <br/>
+      <br/>
+      
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
           <h2 className="text-4xl font-bold inline border-b-4 border-gray-400">
@@ -41,7 +139,11 @@ const Projects = () => {
           </h2>
           <p className="py-6 text-pink-500">The Mega💜 Family </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 mb-20 gap-8 px-12 sm:px-0">
+        
+        <div //className="grid sm:grid-cols-2 md:grid-cols-3 mb-20 gap-8 px-12 sm:px-0 "
+        >
+        <div className="slider-container  ">
+            <Slider {...settings}>
           {ProjectsData.map(({ id, src, desc }) => (
             <div
               data-aos="fade-in"
@@ -56,7 +158,7 @@ const Projects = () => {
               />
               <div className="p-2 text-justify font-extralight">
                 <p>{desc.name}</p>
-                <p>Designation: {desc.designation}</p> <br />
+                <p> {desc.designation} ({desc.year})</p> <br />
                 <p>Reach me out at:</p>
                 <div className="flex items-center space-x-2">
                   <a
@@ -91,8 +193,16 @@ const Projects = () => {
               </div>
             </div>
           ))}
+           </Slider>
         </div>
+       
       </div>
+      </div>
+     
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
     </div>

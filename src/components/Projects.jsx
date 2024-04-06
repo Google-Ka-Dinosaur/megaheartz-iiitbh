@@ -12,13 +12,16 @@ import tms from "../assets/projects/tms.jpg";
 import REPUBLICDAY  from "../assets/projects/REPUBLIC.png";
 import sapphire from "../assets/projects/sapphire.jpg";
 import AOS from "aos";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 
 const Projects = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   });
-
+ 
   const Projects = () => [
     {
       id: 1,
@@ -84,23 +87,66 @@ const Projects = () => {
     
 
   ];
-
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+  
   return (
+  
     <div
       name="Projects"
       className="h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white
      md:h-screen"
     >
+      <br/>
+      <br/>
       <br />
       <br />
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+     
+   
+      <div className="max-w-screen-lg py-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
           <h2 className="text-4xl font-bold inline border-b-4 border-gray-400">
             Projects
           </h2>
           <p className="py-6 text-pink-500">Check out our amazing work!!</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 mb-20 gap-8 px-12 sm:px-0">
+        
+        <div //className="grid sm:grid-cols-2 md:grid-cols-4 mb-20 gap-8 px-12 sm:px-0"
+        >
+        <div className="slider-container ">
+            <Slider {...settings}>
           {Projects().map(({ id, src, desc, video }) => (
             <div
               data-aos="fade-in"
@@ -108,11 +154,13 @@ const Projects = () => {
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg"
             >
+              
               <img
                 src={src}
                 alt="Ai"
-                className="rounded-md duration-200 hover:scale-105"
+                className="h-64 object-cover rounded-md duration-200 hover:scale-105"
               />
+        
               <p className="p-2 text-justify font-extralight">{desc}</p>
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-purple-900 to-gray-700 rounded-md">
@@ -122,12 +170,27 @@ const Projects = () => {
                 </button>
               </div>
             </div>
+            
           ))}
+            </Slider>
+                </div>
         </div>
+   
       </div>
+
       <br />
       <br />
-    </div>
+      <br/>
+      <br/>
+      <br />
+      <br />
+      <br/>
+      <br/>
+      <br />
+      <br />
+     </div>
+  
+   
   );
 };
 
