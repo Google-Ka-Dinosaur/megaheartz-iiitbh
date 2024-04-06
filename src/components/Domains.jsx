@@ -79,7 +79,7 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="w-full h-full grid grid-cols-2 text-center sm:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="w-full h-full grid grid-cols-2 text-center sm:grid-cols-4 gap-8 px-12 sm:px-0">
           {techs().map(({ id, scr, title, style, center }) => (
             <div
               data-aos="zoom-in"
