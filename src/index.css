@@ -20,5 +20,6 @@
   }
 }
 .slick-slide>div{
-  margin: 0 10px;
+  margin: 0 4px;
+  padding: 10px;
 }
