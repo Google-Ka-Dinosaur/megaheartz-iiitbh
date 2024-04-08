@@ -19,3 +19,7 @@
     font-family: 'Itim', cursive;
   }
 }
+.slick-slide>div{
+  margin: 0 4px;
+  padding: 10px;
+}
