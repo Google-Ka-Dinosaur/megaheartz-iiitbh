@@ -1,5 +1,39 @@
 import React, { useEffect } from "react";
-import Rajnish from "../assets/team/Rajnish.jpg";
+import Rajnish from "../assets/team/Rajnish.svg";
+import Suraj from "../assets/team/Suraj.svg";
+import Nishchal from "../assets/team/Nishchal.svg";
+import Aditya from "../assets/team/Aditya.svg";
+import Kalyan from "../assets/team/Kalyan.svg";
+import Adyasha from "../assets/team/Adyasha.svg";
+import Arpit from "../assets/team/Arpit.svg";
+import Akshita from "../assets/team/Akshita.svg";
+import Amit from "../assets/team/Amit.svg";
+import Anwesha from "../assets/team/Anwesha.svg";
+import Arunanshu from "../assets/team/Arunanshu.svg";
+import Aurojyoti from "../assets/team/Aurojyoti.svg";
+import Ayuska from "../assets/team/Ayuska.svg";
+import Biswajit from "../assets/team/Biswajit.svg";
+import Eklavya from "../assets/team/Eklavya.svg";
+import Krishna from "../assets/team/Krishna.svg";
+import Mrutunjaya from "../assets/team/Mrutunjaya.svg";
+import Naina from "../assets/team/Naina.svg";
+import Nandan from "../assets/team/Nandan.svg";
+import Nilakshee from "../assets/team/Nilakshee.svg";
+import Prince from "../assets/team/Prince.svg";
+import Priyanshu from "../assets/team/Priyanshu.svg";
+import Prriya from "../assets/team/Prriya.svg";
+import Ravi from "../assets/team/Ravi.svg";
+import Reshma from "../assets/team/Reshma.svg";
+import Rohnit from "../assets/team/Rohnit.svg";
+import Ronak from "../assets/team/Ronak.svg";
+import Rudransh from "../assets/team/Rudransh.svg";
+import Sadhana from "../assets/team/Sadhana.svg";
+import Saumyajeet from "../assets/team/Saumyajeet.svg";
+import Shantanu from "../assets/team/Shantanu.svg";
+import Soham from "../assets/team/Soham.svg";
+import Swayam from "../assets/team/Swayam.svg";
+import Ankita from "../assets/team/Ankita.svg";
+import Shwettam from "../assets/team/Shwettam.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
@@ -14,7 +48,7 @@ const Projects = () => {
   const ProjectsData = [
     {
       id: 1,
-      src: Rajnish,
+      src: Suraj,
       desc: {
         name: "Dr. Suraj Sharma",
         designation: "Founder",
@@ -26,7 +60,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      src: Rajnish,
+      src: Kalyan,
       desc: {
         name: "Kalyan Srinivas",
         designation: "Founder",
@@ -39,7 +73,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      src: Rajnish,
+      src: Aditya,
       desc: {
         name: "Aditya Raj Kishan",
         designation: "Advisor",
@@ -67,7 +101,7 @@ const Projects = () => {
     },
     {
       id: 5,
-      src: Rajnish,
+      src: Ravi,
       desc: {
         name: "Ravi Sovesh",
         designation: "joint-Secretary",
@@ -81,7 +115,7 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: Rajnish,
+      src: Rudransh,
       desc: {
         name: "Rudransh Agarwal",
         designation: "Joint-Secretary",
@@ -94,7 +128,7 @@ const Projects = () => {
     },
     {
       id: 7,
-      src: Rajnish,
+      src: Shantanu,
       desc: {
         name: "A Shantanu",
         designation: "Editing Lead",
@@ -108,7 +142,7 @@ const Projects = () => {
 
     {
       id: 8,
-      src: Rajnish,
+      src: Prince,
       desc: {
         name: "Prince Kumar Singh",
         designation: "Core Team",
@@ -122,7 +156,7 @@ const Projects = () => {
     },
     {
       id: 9,
-      src: Rajnish,
+      src: Ronak,
       desc: {
         name: "Ronak Agrawal",
         designation: "Core Team",
@@ -135,7 +169,7 @@ const Projects = () => {
     },
     {
       id: 10,
-      src: Rajnish,
+      src: Biswajit,
       desc: {
         name: "Biswajit Bhoi",
         designation: "Core Team",
@@ -148,7 +182,7 @@ const Projects = () => {
     },
     {
       id: 11,
-      src: Rajnish,
+      src: Saumyajeet,
       desc: {
         name: "Saumyajeet Varma",
         designation: "Graphics Lead",
@@ -162,7 +196,7 @@ const Projects = () => {
     },
     {
       id: 12,
-      src: Rajnish,
+      src: Prriya,
       desc: {
         name: "Prriya Dash",
         designation: "Content Lead",
@@ -176,7 +210,7 @@ const Projects = () => {
 
     {
       id: 13,
-      src: Rajnish,
+      src: Nandan,
       desc: {
         name: "Nandan Roy",
         designation: "Editing Lead",
@@ -190,7 +224,7 @@ const Projects = () => {
     },
     {
       id: 14,
-      src: Rajnish,
+      src: Sadhana,
       desc: {
         name: "Sadhana Panigrahy",
         designation: "Event Management Lead",
@@ -204,7 +238,7 @@ const Projects = () => {
 
     {
       id: 15,
-      src: Rajnish,
+      src: Adyasha,
       desc: {
         name: "Adyasha Mohanty",
         designation: "Podcast Lead",
@@ -218,7 +252,7 @@ const Projects = () => {
 
     {
       id: 16,
-      src: Rajnish,
+      src: Mrutunjaya,
       desc: {
         name: "Mrutyunjaya Panda",
         designation: "Squad",
@@ -231,7 +265,7 @@ const Projects = () => {
     },
     {
       id: 17,
-      src: Rajnish,
+      src: Krishna,
       desc: {
         name: "Krishna Kausik Barik",
         designation: "Squad",
@@ -245,7 +279,7 @@ const Projects = () => {
     },
     {
       id: 18,
-      src: Rajnish,
+      src: Arunanshu,
       desc: {
         name: "Arunanshu Arya",
         designation: "Squad",
@@ -259,7 +293,7 @@ const Projects = () => {
     },
     {
       id: 19,
-      src: Rajnish,
+      src: Swayam,
       desc: {
         name: "Swayam Aryaman",
         designation: "Squad",
@@ -271,7 +305,7 @@ const Projects = () => {
     },
     {
       id: 20,
-      src: Rajnish,
+      src: Nishchal,
       desc: {
         name: "Nishchal Verma",
         designation: "Squad",
@@ -286,7 +320,7 @@ const Projects = () => {
     },
     {
       id: 21,
-      src: Rajnish,
+      src: Akshita,
       desc: {
         name: "Akshita Nayak",
         designation: "Squad",
@@ -298,7 +332,7 @@ const Projects = () => {
     },
     {
       id: 22,
-      src: Rajnish,
+      src: Shwettam,
       desc: {
         name: "Shwettam Sahu",
         designation: "Squad",
@@ -312,7 +346,7 @@ const Projects = () => {
     },
     {
       id: 23,
-      src: Rajnish,
+      src: Naina,
       desc: {
         name: "Naina Purohit",
         designation: "Squad",
@@ -327,7 +361,7 @@ const Projects = () => {
     },
     {
       id: 24,
-      src: Rajnish,
+      src: Priyanshu,
       desc: {
         name: "Priyanshu Shekhar",
         designation: "Squad",
@@ -337,7 +371,7 @@ const Projects = () => {
     },
     {
       id: 25,
-      src: Rajnish,
+      src: Soham,
       desc: {
         name: "Soham Mishra",
         designation: "Squad",
@@ -350,7 +384,7 @@ const Projects = () => {
     },
     {
       id: 26,
-      src: Rajnish,
+      src: Amit,
       desc: {
         name: "Amit Kumar Hota",
         designation: "Squad",
@@ -362,7 +396,7 @@ const Projects = () => {
     },
     {
       id: 27,
-      src: Rajnish,
+      src: Ankita,
       desc: {
         name: "Ankita Priyadarshini",
         designation: "Squad",
@@ -373,7 +407,7 @@ const Projects = () => {
     },
     {
       id: 28,
-      src: Rajnish,
+      src: Reshma,
       desc: {
         name: "Taluri Reshma",
         designation: "Squad",
@@ -384,9 +418,75 @@ const Projects = () => {
     },
     {
       id: 29,
-      src: Rajnish,
+      src: Anwesha,
       desc: {
-        name: "Ankita Priyadarshini",
+        name: "Anwesha Priyadarshini",
+        designation: "Squad",
+        mail: "b523006@iiit-bh.ac.in",
+        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 30,
+      src: Arpit,
+      desc: {
+        name: "Arpit Raj",
+        designation: "Squad",
+        mail: "b523006@iiit-bh.ac.in",
+        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 31,
+      src: Aurojyoti,
+      desc: {
+        name: "Aurojyoti",
+        designation: "Squad",
+        mail: "b523006@iiit-bh.ac.in",
+        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 32,
+      src: Ayuska,
+      desc: {
+        name: "Ayuska Choudhary",
+        designation: "Squad",
+        mail: "b523006@iiit-bh.ac.in",
+        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 33,
+      src: Nilakshee,
+      desc: {
+        name: "Nilakshee Sahu",
+        designation: "Squad",
+        mail: "b523006@iiit-bh.ac.in",
+        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 34,
+      src: Eklavya,
+      desc: {
+        name: "Eklavya Kumar",
+        designation: "Squad",
+        mail: "b523006@iiit-bh.ac.in",
+        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 35,
+      src: Rohnit,
+      desc: {
+        name: "Rohnit Guru",
         designation: "Squad",
         mail: "b523006@iiit-bh.ac.in",
         insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
