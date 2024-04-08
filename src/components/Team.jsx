@@ -435,8 +435,7 @@ const Projects = () => {
         </div>
 
         <div className="slider-container">
-          <div //className="mb-8"
-          >
+          <div className="px-4">
             <Slider {...settings}>
               {ProjectsData.map(({ id, src, desc }) => (
                 <div
