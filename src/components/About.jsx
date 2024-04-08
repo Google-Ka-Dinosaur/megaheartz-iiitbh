@@ -24,7 +24,7 @@ const About = () => {
         <p
           data-aos="slide-up"
           data-aos-duration="500"
-          className="text-xl mt-5 ease-in fade-in"
+          className="mt-5 ease-in fade-in"
         >
           Working as the face of IIIT Bhubaneswar to showcase the college to the
           outer world via the virtual network thus increasing its brand value.
@@ -32,7 +32,7 @@ const About = () => {
         <p
           data-aos="slide-up"
           data-aos-duration="500"
-          className="text-xl mt-5 ease-in fade-in"
+          className="mt-5 ease-in fade-in"
         >
           Was started by Suraj Sharma Sir, in 2022 because our college didn’t
           have an official platform via which the outer world can know what’s
@@ -41,14 +41,14 @@ const About = () => {
         <p
           data-aos="slide-up"
           data-aos-duration="500"
-          className="text-xl mt-5 ease-in fade-in"
+          className="mt-5 ease-in fade-in"
         >
           Established as a society in the year: 2023.
         </p>
         <p
           data-aos="slide-up"
           data-aos-duration="500"
-          className="text-xl mt-5 ease-in fade-in"
+          className="mt-5 ease-in fade-in"
         >
           MegaHeartz has tried to cover nearly all the formal and informal
           events happening in the college and is also contributing actively and

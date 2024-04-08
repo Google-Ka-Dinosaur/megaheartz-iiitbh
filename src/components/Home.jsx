@@ -21,8 +21,8 @@ const Home = () => {
         className="max-w-screen-lg mx-auto flex flex-col items-center
                             justify-center  px-4 md:flex-row text-white"
       >
-        <div className="flex flex-col justify-center">
-          <div>
+        <div className="flex flex-col justify-center mt-5">
+          {/*<div>
             <img
               src={logo}
               alt="my profile"
@@ -30,11 +30,11 @@ const Home = () => {
               data-aos-duration="500"
               className="mt-20 rounded-2xl w-1/3 md:w-1/3 lg:w-1/5 my-5 hover:scale-105 duration-300 sm:ease-in"
             />
-          </div>
+  </div>*/}
           <h3
             data-aos="fade-in"
             data-aos-duration="1000"
-            className="text-4xl sm:text-6xl font-bold text-white"
+            className="text-4xl sm:text-6xl font-bold text-white mt-4"
           >
             <span style={{ fontFamily: "Arial, sans-serif" }}>
               IIIT MegaHeartz |{" "}
@@ -53,7 +53,7 @@ const Home = () => {
             data-aos="fade-in"
             data-aos-delay="400"
             data-aos-duration="2000"
-            className="text-gray-400 py-4 max-w-md w-full"
+            className="text-gray-400 py-4 w-full"
           >
             MegaHeartz is our college's vibrant pulse, marketing and enhancing
             our brand. It manages social media expertly but goes beyond that. It
