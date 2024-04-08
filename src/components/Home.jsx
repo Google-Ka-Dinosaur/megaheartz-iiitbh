@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import logo from "../assets/mega-logo.png";
+// import logo from "../assets/mega-logo.png";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
 import "../App.css";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram } from "react-icons/bs";
 
 const Home = () => {
   useEffect(() => {
@@ -34,9 +34,11 @@ const Home = () => {
           <h3
             data-aos="fade-in"
             data-aos-duration="1000"
-            className="text-4xl sm:text-6xl font-bold text-white mt-4"
+            className="text-3xl sm:text-6xl font-bold text-white mt-4"
           >
             <span style={{ fontFamily: "Arial, sans-serif" }}>
+              <br />
+              <br />
               IIIT MegaHeartz |{" "}
               <span
                 data-aos="fade-left"
@@ -95,7 +97,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/rks-031/MegaHeartz-IIIT-Bh.git"
+              href="https://github.com/rks-031/megaheartz-iiitbh.git"
               smooth
               duration={600}
               data-aos="fade-up"
