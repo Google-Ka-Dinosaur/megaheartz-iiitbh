@@ -14,7 +14,7 @@ const Home = () => {
   });
   return (
     <div
-      name="home"
+      name="Home"
       className="h-auto w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div
