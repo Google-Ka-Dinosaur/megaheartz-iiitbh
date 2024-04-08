@@ -16,8 +16,20 @@ const Projects = () => {
       id: 1,
       src: Rajnish,
       desc: {
+        name: "Dr. Suraj Sharma",
+        designation: "Founder",
+        insta: "",
+        linkedin: "https://www.linkedin.com/in/drsurajsharma/",
+        github: "https://github.com/kalyansrinivas001",
+        email: "",
+      },
+    },
+    {
+      id: 2,
+      src: Rajnish,
+      desc: {
         name: "Kalyan Srinivas",
-        designation: "founder",
+        designation: "Founder",
         insta: "https://www.instagram.com/kalyan.klikbox/",
         linkedin: "https://www.linkedin.com/in/kalyan-srinivas-6b0796111/",
         github: "https://github.com/kalyansrinivas001",
@@ -26,7 +38,7 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 2,
+      id: 3,
       src: Rajnish,
       desc: {
         name: "Aditya Raj Kishan",
@@ -39,11 +51,11 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 3,
+      id: 4,
       src: Rajnish,
       desc: {
         name: "Rajnish Kumar Singh",
-        designation: "Secretary-(23-24)",
+        designation: "Secretary(2023-24)",
 
         github: "https://github.com/Adityarajkishan",
         linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
@@ -54,10 +66,10 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 4,
+      id: 5,
       src: Rajnish,
       desc: {
-        name: "Ravi sovesh",
+        name: "Ravi Sovesh",
         designation: "joint-Secretary",
 
         github: "https://github.com/Adityarajkishan",
@@ -67,20 +79,6 @@ const Projects = () => {
       },
       style: "shadow-pink-800",
     },
-    {
-      id: 5,
-      src: Rajnish,
-      desc: {
-        name: "Shantanu",
-        designation: "Editing and graphics lead",
-        github: "https://github.com/shaan4712",
-        linkedin: "https://www.linkedin.com/in/shantanu4712/",
-        insta: "https://www.instagram.com/shaan_4712/",
-        email: "shaan2k3@gmail.com",
-      },
-      style: "shadow-pink-800",
-    },
-
     {
       id: 6,
       src: Rajnish,
@@ -98,8 +96,22 @@ const Projects = () => {
       id: 7,
       src: Rajnish,
       desc: {
-        name: "prince-kumar-singh",
-        designation: "Secretary",
+        name: "A Shantanu",
+        designation: "Editing Lead",
+        github: "https://github.com/shaan4712",
+        linkedin: "https://www.linkedin.com/in/shantanu4712/",
+        insta: "https://www.instagram.com/shaan_4712/",
+        email: "shaan2k3@gmail.com",
+      },
+      style: "shadow-pink-800",
+    },
+
+    {
+      id: 8,
+      src: Rajnish,
+      desc: {
+        name: "Prince Kumar Singh",
+        designation: "Core Team",
         github: "https://github.com/Prince-Ku-S",
         linkedin: "www.linkedin.com/in/prince-kumar-singh-00804025b",
         insta:
@@ -109,24 +121,11 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 8,
-      src: Rajnish,
-      desc: {
-        name: "Ronak",
-        designation: "Joint Secretary",
-        github: "https://github.com/biswajit522016",
-        linkedin: "https://www.linkedin.com/in/biswajit-bhoi-2537b5257/",
-        insta: "https://www.instagram.com/biswajit.bhoi.125/",
-        email: "b522016@iiit-bh.ac.in",
-      },
-      style: "shadow-pink-800",
-    },
-    {
       id: 9,
       src: Rajnish,
       desc: {
-        name: "Biswa",
-        designation: "Joint Secretary",
+        name: "Ronak Agrawal",
+        designation: "Core Team",
         github: "https://github.com/biswajit522016",
         linkedin: "https://www.linkedin.com/in/biswajit-bhoi-2537b5257/",
         insta: "https://www.instagram.com/biswajit.bhoi.125/",
@@ -138,7 +137,20 @@ const Projects = () => {
       id: 10,
       src: Rajnish,
       desc: {
-        name: "Saumyajeet-Varma",
+        name: "Biswajit Bhoi",
+        designation: "Core Team",
+        github: "https://github.com/biswajit522016",
+        linkedin: "https://www.linkedin.com/in/biswajit-bhoi-2537b5257/",
+        insta: "https://www.instagram.com/biswajit.bhoi.125/",
+        email: "b522016@iiit-bh.ac.in",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 11,
+      src: Rajnish,
+      desc: {
+        name: "Saumyajeet Varma",
         designation: "Graphics Lead",
         github: "https://github.com/Saumyajeet-Varma",
         linkedin:
@@ -149,7 +161,7 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 11,
+      id: 12,
       src: Rajnish,
       desc: {
         name: "Prriya Dash",
@@ -163,7 +175,7 @@ const Projects = () => {
     },
 
     {
-      id: 12,
+      id: 13,
       src: Rajnish,
       desc: {
         name: "Nandan Roy",
@@ -177,25 +189,11 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 13,
-      src: Rajnish,
-      desc: {
-        name: "Sadhana",
-        designation: "Lead",
-        github: "https://github.com/biswajit522016",
-        linkedin: "https://www.linkedin.com/in/biswajit-bhoi-2537b5257/",
-        insta: "https://www.instagram.com/biswajit.bhoi.125/",
-        email: "b522016@iiit-bh.ac.in",
-      },
-      style: "shadow-pink-800",
-    },
-
-    {
       id: 14,
       src: Rajnish,
       desc: {
-        name: "Adyasha",
-        designation: "Lead",
+        name: "Sadhana Panigrahy",
+        designation: "Event Management Lead",
         github: "https://github.com/biswajit522016",
         linkedin: "https://www.linkedin.com/in/biswajit-bhoi-2537b5257/",
         insta: "https://www.instagram.com/biswajit.bhoi.125/",
@@ -208,7 +206,21 @@ const Projects = () => {
       id: 15,
       src: Rajnish,
       desc: {
-        name: "mrutyunjaya_panda",
+        name: "Adyasha Mohanty",
+        designation: "Podcast Lead",
+        github: "https://github.com/biswajit522016",
+        linkedin: "https://www.linkedin.com/in/biswajit-bhoi-2537b5257/",
+        insta: "https://www.instagram.com/biswajit.bhoi.125/",
+        email: "b522016@iiit-bh.ac.in",
+      },
+      style: "shadow-pink-800",
+    },
+
+    {
+      id: 16,
+      src: Rajnish,
+      desc: {
+        name: "Mrutyunjaya Panda",
         designation: "Squad",
         github: "",
         linkedin: "",
@@ -218,11 +230,11 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 16,
+      id: 17,
       src: Rajnish,
       desc: {
-        name: "krishna kausik barik",
-        designation: "squad",
+        name: "Krishna Kausik Barik",
+        designation: "Squad",
         instagram: "https://www.instagram.com/krishnakausikbarik/",
         mail: "krishnakaushik642@gmail.com",
         linkedin: "https://www.linkedin.com/in/krishna-kausik-barik-33306b293/",
@@ -232,10 +244,10 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 17,
+      id: 18,
       src: Rajnish,
       desc: {
-        name: "Arunanshu-Arya",
+        name: "Arunanshu Arya",
         designation: "Squad",
         github: "https://github.com/Arunanshu-Arya",
         insta: "https://www.instagram.com/arunanshuarya?igsh=dDd3YXVuZW1zN2J5",
@@ -246,11 +258,11 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 18,
+      id: 19,
       src: Rajnish,
       desc: {
         name: "Swayam Aryaman",
-        designation: "squad",
+        designation: "Squad",
         insta:
           "https://www.instagram.com/aryamanswayam?igsh=MTY5bWdqajRiZTM3Zw==",
         mail: "b423069@iiit-bh.ac.in",
@@ -258,10 +270,10 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 19,
+      id: 20,
       src: Rajnish,
       desc: {
-        name: "Nishchalverma",
+        name: "Nishchal Verma",
         designation: "Squad",
         insta: "https://www.instagram.com/.nixchal.?igsh=MWM4Z3ZwemNqOG9oOA==",
         behance: "https://www.behance.net/gfxnishchalverma",
@@ -273,10 +285,10 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 20,
+      id: 21,
       src: Rajnish,
       desc: {
-        name: "akxshita",
+        name: "Akshita Nayak",
         designation: "Squad",
         insta:
           "https://www.instagram.com/akxshitaaa.?igsh=MWMxaWQ4MmxjcHkxZg==",
@@ -285,10 +297,10 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 21,
+      id: 22,
       src: Rajnish,
       desc: {
-        name: "Shwettam",
+        name: "Shwettam Sahu",
         designation: "Squad",
         github: "https://github.com/Shwettam",
         insta: "https://www.instagram.com/s_sahu20?igsh=eWFrZ2RucWpyMXlv",
@@ -299,10 +311,10 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 22,
+      id: 23,
       src: Rajnish,
       desc: {
-        name: "nainapurohit",
+        name: "Naina Purohit",
         designation: "Squad",
         github: "https://github.com/nainapurohit",
         insta:
@@ -314,7 +326,7 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 23,
+      id: 24,
       src: Rajnish,
       desc: {
         name: "Priyanshu Shekhar",
@@ -324,7 +336,7 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 24,
+      id: 25,
       src: Rajnish,
       desc: {
         name: "Soham Mishra",
@@ -337,26 +349,14 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id: 25,
+      id: 26,
       src: Rajnish,
       desc: {
         name: "Amit Kumar Hota",
         designation: "Squad",
         insta: "https://www.instagram.com/ameexx._?igsh=cW1qN2xxNnJqbGxv",
         email: "amit.kumarhota123987@gmail.com",
-        linkedin:
-          "https://www.linkedin.com/in/amit-kumar-hota-68070a2b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      },
-      style: "shadow-pink-800",
-    },
-    {
-      id: 26,
-      src: Rajnish,
-      desc: {
-        name: "Ankita Priyadarshini",
-        designation: "Squad",
-        mail: "b523006@iiit-bh.ac.in",
-        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+        linkedin: "https://www.linkedin.com/in/amit-kumar-hota-68070a2b3",
       },
       style: "shadow-pink-800",
     },
@@ -373,6 +373,17 @@ const Projects = () => {
     },
     {
       id: 28,
+      src: Rajnish,
+      desc: {
+        name: "Taluri Reshma",
+        designation: "Squad",
+        mail: "b523006@iiit-bh.ac.in",
+        insta: "https://www.instagram.com/ankita.mp4?igsh=MWhoajgyMnZocWNscQ==",
+      },
+      style: "shadow-pink-800",
+    },
+    {
+      id: 29,
       src: Rajnish,
       desc: {
         name: "Ankita Priyadarshini",
