@@ -36,7 +36,13 @@ import Ankita from "../assets/team/Ankita.svg";
 import Shwettam from "../assets/team/Shwettam.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+  FaBehanceSquare,
+} from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -593,6 +599,15 @@ const Projects = () => {
                       >
                         <FaEnvelope />
                       </a>
+                      {desc.name === "Nishchal Verma" && (
+                        <a
+                          href={desc.behance}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FaBehanceSquare />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
