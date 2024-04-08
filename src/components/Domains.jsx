@@ -6,6 +6,7 @@ import orator from "../assets/experience/orator.png";
 import social from "../assets/experience/social-media.png";
 import photographer from "../assets/experience/photographer.png";
 import videography from "../assets/experience/videography.png";
+import video from "../assets/experience/video-editing.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -42,7 +43,7 @@ const Experience = () => {
     },
     {
       id: 5,
-      scr: content,
+      scr: video,
       title: "Video Editing",
       style: "shadow-indigo-600",
     },
