@@ -16,7 +16,6 @@ const Projects = () => {
       id: 1,
       src: Rajnish,
       desc: {
-        
         name: "Kalyan Srinivas",
         designation: "founder",
         insta: "https://www.instagram.com/kalyan.klikbox/",
@@ -45,22 +44,22 @@ const Projects = () => {
       desc: {
         name: "Rajnish Kumar Singh",
         designation: "Secretary-(23-24)",
-      
-      
+
         github: "https://github.com/Adityarajkishan",
         linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
-        insta: "https://www.instagram.com/v.ilen?igsh=MXh0ZGxpMDh5Y290cw%3D%3D&utm_source=qr",
+        insta:
+          "https://www.instagram.com/v.ilen?igsh=MXh0ZGxpMDh5Y290cw%3D%3D&utm_source=qr",
         email: "soveshhere@gmail.com",
       },
       style: "shadow-pink-800",
     },
     {
-      id:4,
+      id: 4,
       src: Rajnish,
       desc: {
         name: "Ravi sovesh",
         designation: "joint-Secretary",
-      
+
         github: "https://github.com/Adityarajkishan",
         linkedin: "https://www.linkedin.com/in/aditya-raj-kishan",
         insta: "https://www.instagram.com/adityarajkishan/",
@@ -103,12 +102,15 @@ const Projects = () => {
         designation: "Secretary",
         github: "https://github.com/Prince-Ku-S",
         linkedin: "www.linkedin.com/in/prince-kumar-singh-00804025b",
-        insta: "https://www.instagram.com/prince_k2608?igsh=MTAzM3dpaHlpemdqZw==",
+        insta:
+          "https://www.instagram.com/prince_k2608?igsh=MTAzM3dpaHlpemdqZw==",
         email: "princesinghv35@gmail.com",
       },
       style: "shadow-pink-800",
-    },{
-      id: 8,src: Rajnish,
+    },
+    {
+      id: 8,
+      src: Rajnish,
       desc: {
         name: "Ronak",
         designation: "Joint Secretary",
@@ -118,8 +120,10 @@ const Projects = () => {
         email: "b522016@iiit-bh.ac.in",
       },
       style: "shadow-pink-800",
-    },{
-      id: 9,src: Rajnish,
+    },
+    {
+      id: 9,
+      src: Rajnish,
       desc: {
         name: "Biswa",
         designation: "Joint Secretary",
@@ -131,13 +135,14 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id:10,
+      id: 10,
       src: Rajnish,
       desc: {
         name: "Saumyajeet-Varma",
         designation: "Graphics Lead",
         github: "https://github.com/Saumyajeet-Varma",
-        linkedin: "https://www.linkedin.com/in/saumyajeet-varma-91bb4025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin:
+          "https://www.linkedin.com/in/saumyajeet-varma-91bb4025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         insta: "https://www.instagram.com/_saumyajeet_/",
         email: "b522053@iiit-bh.ac.in",
       },
@@ -155,23 +160,25 @@ const Projects = () => {
         email: "b222039@iiit-bh.ac.in",
       },
       style: "shadow-pink-800",
-    }, 
-    
+    },
+
     {
-      id:12,
+      id: 12,
       src: Rajnish,
       desc: {
         name: "Nandan Roy",
         designation: "Editing Lead",
         github: "",
-        linkedin: "https://www.linkedin.com/in/nandan-roy-771b4225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin:
+          "https://www.linkedin.com/in/nandan-roy-771b4225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         insta: "https://www.instagram.com/roy._68?igsh=ZWVldXQ0NXFocHFl",
         email: "b522038@iiit-bh.ac.in",
       },
       style: "shadow-pink-800",
     },
     {
-      id:13,src: Rajnish,
+      id: 13,
+      src: Rajnish,
       desc: {
         name: "Sadhana",
         designation: "Lead",
@@ -182,9 +189,10 @@ const Projects = () => {
       },
       style: "shadow-pink-800",
     },
-   
+
     {
-      id: 14,src: Rajnish,
+      id: 14,
+      src: Rajnish,
       desc: {
         name: "Adyasha",
         designation: "Lead",
@@ -195,7 +203,7 @@ const Projects = () => {
       },
       style: "shadow-pink-800",
     },
-   
+
     {
       id: 15,
       src: Rajnish,
@@ -243,7 +251,8 @@ const Projects = () => {
       desc: {
         name: "Swayam Aryaman",
         designation: "squad",
-        insta: "https://www.instagram.com/aryamanswayam?igsh=MTY5bWdqajRiZTM3Zw==",
+        insta:
+          "https://www.instagram.com/aryamanswayam?igsh=MTY5bWdqajRiZTM3Zw==",
         mail: "b423069@iiit-bh.ac.in",
       },
       style: "shadow-pink-800",
@@ -256,7 +265,8 @@ const Projects = () => {
         designation: "Squad",
         insta: "https://www.instagram.com/.nixchal.?igsh=MWM4Z3ZwemNqOG9oOA==",
         behance: "https://www.behance.net/gfxnishchalverma",
-        linkedin: "https://www.linkedin.com/in/nishchal-verma-497129245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin:
+          "https://www.linkedin.com/in/nishchal-verma-497129245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: "https://github.com/Nixchal2004",
         mail: "b423042@iiitbh.ac.in",
       },
@@ -268,7 +278,8 @@ const Projects = () => {
       desc: {
         name: "akxshita",
         designation: "Squad",
-        insta: "https://www.instagram.com/akxshitaaa.?igsh=MWMxaWQ4MmxjcHkxZg==",
+        insta:
+          "https://www.instagram.com/akxshitaaa.?igsh=MWMxaWQ4MmxjcHkxZg==",
         mail: "b423006@iiit-bh.ac.in",
       },
       style: "shadow-pink-800",
@@ -282,7 +293,8 @@ const Projects = () => {
         github: "https://github.com/Shwettam",
         insta: "https://www.instagram.com/s_sahu20?igsh=eWFrZ2RucWpyMXlv",
         mail: "shwettamsahu8076@gmail.com",
-        linkedin: "https://www.linkedin.com/in/shwettam-sahu-959a13214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin:
+          "https://www.linkedin.com/in/shwettam-sahu-959a13214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       style: "shadow-pink-800",
     },
@@ -293,8 +305,10 @@ const Projects = () => {
         name: "nainapurohit",
         designation: "Squad",
         github: "https://github.com/nainapurohit",
-        insta: "https://www.instagram.com/nainapurohit12?igsh=MTV2dmNlZnRqbzV3aA==",
-        linkedin: "https://www.linkedin.com/in/naina-purohit-64bb38283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        insta:
+          "https://www.instagram.com/nainapurohit12?igsh=MTV2dmNlZnRqbzV3aA==",
+        linkedin:
+          "https://www.linkedin.com/in/naina-purohit-64bb38283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "b423039@iiit-bh.ac.in",
       },
       style: "shadow-pink-800",
@@ -310,7 +324,7 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id:24,
+      id: 24,
       src: Rajnish,
       desc: {
         name: "Soham Mishra",
@@ -323,14 +337,15 @@ const Projects = () => {
       style: "shadow-pink-800",
     },
     {
-      id:25,
+      id: 25,
       src: Rajnish,
       desc: {
         name: "Amit Kumar Hota",
         designation: "Squad",
         insta: "https://www.instagram.com/ameexx._?igsh=cW1qN2xxNnJqbGxv",
         email: "amit.kumarhota123987@gmail.com",
-        linkedin: "https://www.linkedin.com/in/amit-kumar-hota-68070a2b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin:
+          "https://www.linkedin.com/in/amit-kumar-hota-68070a2b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       style: "shadow-pink-800",
     },
@@ -367,17 +382,14 @@ const Projects = () => {
       },
       style: "shadow-pink-800",
     },
-
-
   ];
-  
- 
+
   var settings = {
     dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll:3,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -386,27 +398,27 @@ const Projects = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 1
-        }
+          initialSlide: 1,
+        },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow:0,
-          slidesToScroll: 0
-        }
-      }
-    ]
+          slidesToShow: 0,
+          slidesToScroll: 0,
+        },
+      },
+    ],
   };
-  
+
   return (
     <div
       name="Team"
@@ -414,11 +426,6 @@ const Projects = () => {
     >
       <br />
       <br />
-      <br />
-      <br />
-      <br/>
-      <br/>
-      
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
           <h2 className="text-4xl font-bold inline border-b-4 border-gray-400">
@@ -426,80 +433,77 @@ const Projects = () => {
           </h2>
           <p className="py-6 text-pink-500">The Mega💜 Family </p>
         </div>
-        
-       
+
         <div className="slider-container">
-        <div //className="mb-8"
-        >
-            <Slider {...settings} >
-          {ProjectsData.map(({ id, src, desc }) => (
-            <div
-              data-aos="fade-in"
-              data-aos-duration="500"
-              key={id}
-              className="shadow-md shadow-gray-600 rounded-lg"
-            >
-              <img
-                src={src}
-                alt="Ai"
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              <div className="p-1 text-justify font-extralight">
-                <p>{desc.name}</p>
-                <p> {desc.designation}</p> <br />
-                <p>Reach me out at:</p>
-                <div className="flex items-center space-x-2">
-                  <a
-                    href={desc.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaGithub />
-                  </a>
-                  <a
-                    href={desc.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedin />
-                  </a>
-                  <a
-                    href={desc.insta}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaInstagram />
-                  </a>
-                  <a
-                    href={desc.email}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaEnvelope />
-                  </a>
+          <div //className="mb-8"
+          >
+            <Slider {...settings}>
+              {ProjectsData.map(({ id, src, desc }) => (
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="500"
+                  key={id}
+                  className="shadow-md shadow-gray-600 rounded-lg"
+                >
+                  <img
+                    src={src}
+                    alt="Ai"
+                    className="rounded-md duration-200 hover:scale-105"
+                  />
+                  <div className="p-1 text-justify font-extralight">
+                    <p>{desc.name}</p>
+                    <p> {desc.designation}</p> <br />
+                    <p>Reach me out at:</p>
+                    <div className="flex items-center space-x-2">
+                      <a
+                        href={desc.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub />
+                      </a>
+                      <a
+                        href={desc.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaLinkedin />
+                      </a>
+                      <a
+                        href={desc.insta}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaInstagram />
+                      </a>
+                      <a
+                        href={desc.email}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaEnvelope />
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          ))}
-            <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-        
-           </Slider>
-           <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+              ))}
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </Slider>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
         </div>
-       
       </div>
-      </div>
-     
+
       <br />
       <br />
       <br />

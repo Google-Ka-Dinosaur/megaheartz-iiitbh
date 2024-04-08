@@ -71,7 +71,7 @@ const Home = () => {
               data-aos-duration="2000"
               className="group rounded bg-gradient-to-r from-pink-600 to-purple-600 w-1/3 md:w-auto h-8 md:h-auto flex items-center justify-center cursor-pointer mt-5 mb-28 text-sm md:text-base"
             >
-              Society Portfolio
+              &nbsp;Society Portfolio
               <span className="px-2 group-hover:rotate-90 duration-300">
                 <MdOutlineArrowRightAlt size={25} />
               </span>

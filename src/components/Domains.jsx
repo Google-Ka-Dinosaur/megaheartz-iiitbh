@@ -42,18 +42,24 @@ const Experience = () => {
     },
     {
       id: 5,
-      scr: audio,
-      title: "Audio Editing",
-      style: "shadow-purple-500",
+      scr: content,
+      title: "Video Editing",
+      style: "shadow-indigo-600",
     },
     {
       id: 6,
+      scr: audio,
+      title: "Sound Designing",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 7,
       scr: social,
       title: "Social Media Management",
       style: "shadow-green-500",
     },
     {
-      id: 7,
+      id: 8,
       scr: orator,
       title: "Oration",
       style: "shadow-pink-800",
@@ -72,9 +78,6 @@ const Experience = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-400 ">
             <br />
             <br />
-            <br />
-            <br />
-            
             Our Domains
           </p>
           <p className="py-6 text-pink-500">
