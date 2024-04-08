@@ -34,20 +34,20 @@ const Home = () => {
           <h3
             data-aos="fade-in"
             data-aos-duration="1000"
-            className="text-3xl sm:text-6xl font-bold text-white mt-4"
+            className="text-4xl sm:text-6xl font-bold animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black mt-4"
           >
             <span style={{ fontFamily: "Arial, sans-serif" }}>
               <br />
               <br />
-              IIIT MegaHeartz |{" "}
-              <span
+              IIIT MegaHeartz{" "}
+              {/*<span
                 data-aos="fade-left"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="1000"
                 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black"
               >
                 Face of IIIT-Bh
-              </span>
+</span>*/}
             </span>
           </h3>
 
